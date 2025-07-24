@@ -33,5 +33,5 @@ Built with love, TypeScript, and Tailwind — and deployed with Vercel.
 ---
 
 Thanks for visiting!  
-Questions? Compliments? Cyber kisses?  
+Questions?  
 🖤 [me@builtbydani.dev](mailto:me@builtbydani.dev)
