@@ -14,7 +14,7 @@ function App() {
 
             <p className="text-lg text-gray-700 leading-relaxed">
               Hey! I’m <span className="font-semibold text-purple-500">Dani</span>, a 
-              non-binary developer and creative based in the U.S.  
+              developer and creative based in the U.S.  
               I’m currently studying <span className="font-medium">Computer Science</span> and 
               learning everything from  
               <span className="font-medium text-blue-300"> JavaScript</span> to 
