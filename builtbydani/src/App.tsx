@@ -80,16 +80,16 @@ function App() {
 
               {/* Project 3 */}
               <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-                <h3 className="text-xl font-semibold mb-2">Mood Journal App</h3>
+                <h3 className="text-xl font-semibold mb-2">Dani-ball</h3>
                 <p className="text-sm text-gray-600 mb-4">
-                  A minimalist mood tracker w/ AI summaries. 
-                    Built for self-reflection, not self-surveillance.
+                  A browser toy inspired by danball.jp 
+                  Play with particles like sand, water, oil, and more!
                 </p>
                 <a
-                  href="#"
+                  href="https://builtbydani.github.io/dani-ball/"
                   className="text-pink-500 font-medium hover:underline"
                 >
-                  Coming soon 👀
+                  Try it out! **Build in progress**
                 </a>
               </div>
             </div>
