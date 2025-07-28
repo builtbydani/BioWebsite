@@ -1,0 +1,122 @@
+import React from 'react' 
+
+export const Projects: React.FC = () => {
+  return (
+        <section 
+          id="projects" 
+          className="
+            min-h-screen p-8 scroll-mt-20 
+            bg-gradient-to-br from-pink-100 to-purple-100 
+            text-gray-900 
+            flex items-center justify-center
+        ">
+          <div 
+            className="
+              max-w-6xl w-full bg-white/80 backdrop-blur-md 
+              rounded-xl p-8 space-y-6 shadow-lg
+          ">
+            <h2 
+              className="
+                text-4xl font-bold 
+                text-center text-blue-300 mb-8
+            ">
+
+              Projects
+
+            </h2>
+
+            <div 
+              className="
+                grid grid-cols-1 
+                md:grid-cols-2 
+                lg:grid-cols-3 gap-6
+            ">
+              {/* Project 1 */}
+              <div 
+                className="
+                  bg-white p-6 
+                  rounded-xl 
+                  shadow hover:shadow-lg transition
+              ">
+                <h3 
+                  className="
+                    text-xl font-semibold mb-2
+                ">
+                  PKPlaza
+                </h3>
+                <p 
+                  className="
+                    text-sm text-gray-600 mb-4
+                ">
+                  A Pokémon ROM launcher & preservation tool, 
+                  styled like a retro Steam Deck library.
+                </p>
+
+                <a
+                  href="https://github.com/builtbydani/pkplaza"
+                  target="_blank"
+                  className="text-pink-500 font-medium hover:underline"
+                >
+                  View on GitHub →
+                </a>
+              </div>
+
+              {/* Project 2 */}
+              <div 
+                className="
+                  bg-white p-6 rounded-xl 
+                  shadow hover:shadow-lg transition
+              ">
+                <h3 
+                  className="
+                    text-xl font-semibold mb-2
+                ">
+                  BuiltByDani.dev
+                </h3>
+                  <p 
+                    className="
+                      text-sm text-gray-600 mb-4
+                  ">
+                    This very site; a living portfolio, coded in React, 
+                    TypeScript, and Tailwind.
+                  </p>
+                  <a
+                    href="https://github.com/builtbydani/BioWebsite"
+                    target="_blank"
+                    className="text-pink-500 font-medium hover:underline"
+                  >
+                    View on GitHub →
+                  </a>
+                </div>
+
+              {/* Project 3 */}
+              <div 
+                className="
+                  bg-white p-6 rounded-xl 
+                  shadow hover:shadow-lg transition
+              ">
+                <h3 
+                  className="
+                    text-xl font-semibold mb-2
+                ">
+                    Dani-ball
+                </h3>
+                <p 
+                  className="
+                    text-sm text-gray-600 mb-4
+                ">
+                  A browser toy inspired by danball.jp 
+                  Play with particles like sand, water, oil, and more!
+                </p>
+                <a
+                  href="https://builtbydani.github.io/dani-ball/"
+                  className="text-pink-500 font-medium hover:underline"
+                >
+                  Try it out! V1.0 out now!
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+  )
+}

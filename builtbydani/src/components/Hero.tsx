@@ -9,14 +9,18 @@ export const Hero: React.FC = () => {
           Hello, I’m Dani 🔮
         </h1>
         <p className="text-lg mb-6">
-          Welcome to my corner of the internet — where I'll be sharing 
+          Welcome to my corner of the internet; where I'll be sharing 
           who I am, and what I'm up to. Check back regularly for updates!
         </p>
 
         <a
-          href="#"
-          className="inline-block px-6 py-3 bg-white text-purple-500 font-semibold rounded-full shadow hover:bg-pink-100 transition"
-        >
+          href="https://github.com/builtbydani"
+          className="
+            inline-block px-6 py-3 
+            bg-white 
+            text-purple-500 font-semibold rounded-full 
+            shadow hover:bg-pink-100 transition
+        ">
           Explore More
         </a>
       </div>
