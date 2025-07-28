@@ -1,7 +1,10 @@
 import React, {useEffect, useState} from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 export const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  const isArcade = location.pathname === "/arcade";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
@@ -11,17 +14,65 @@ export const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-shadow 
-        ${scrolled ? 'shadowmd bg-purple-100/80 backdrop-blur-md' : ''
-      }`}
+      className={`
+          fixed top-0 left-0 w-full z-50 
+          transition-shadow 
+          ${scrolled 
+            ? 'shadowmd bg-purple-100/80 backdrop-blur-md' 
+            : ''}
+      `}
     >
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="/" className="text-xl font-bold text-purple-500">builtbydani.dev</a>
-        <div className="space-x-4">
-          <a href="#about" className="text-gray-700 hover:text-purple-500 transition">About</a>
-          <a href="#projects" className="text-gray-700 hover:text-purple-500 transition">Projects</a>
+      <div 
+        className="
+          max-w-6xl mx-auto 
+          px-6 py-4 
+          flex justify-between 
+          items-center
+      ">
+        <a 
+          href="/" 
+          className="
+            text-xl font-bold 
+            text-purple-500
+          ">
+            builtbydani.dev
+        </a>
+        <div 
+          className="
+            space-x-4
+        ">
+        {!isArcade && (
+          <>
+            <a 
+              href="#about" 
+              className="
+                text-gray-700 
+                hover:text-purple-500 
+                transition
+            ">
+              About
+            </a>
+            <a 
+              href="#projects" 
+              className="
+                text-gray-700 
+                hover:text-purple-500 
+                transition
+            ">
+              Projects
+            </a>
+          </>
+        )}
+            <Link 
+              to="/arcade" 
+              className="
+                hover:underline 
+                text-pink-600
+            ">
+              Arcade
+            </Link>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
   );
 };
