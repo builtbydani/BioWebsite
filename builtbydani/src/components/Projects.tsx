@@ -42,18 +42,17 @@ export const Projects: React.FC = () => {
                   className="
                     text-xl font-semibold mb-2
                 ">
-                  PKPlaza
+                  Visualio
                 </h3>
                 <p 
                   className="
                     text-sm text-gray-600 mb-4
                 ">
-                  A Pokémon ROM launcher & preservation tool, 
-                  styled like a retro Steam Deck library.
+                  An audio visualizer built for the browser with React.
                 </p>
 
                 <a
-                  href="https://github.com/builtbydani/pkplaza"
+                  href="https://github.com/builtbydani/visualio"
                   target="_blank"
                   className="text-pink-500 font-medium hover:underline"
                 >
@@ -99,7 +98,7 @@ export const Projects: React.FC = () => {
                   className="
                     text-xl font-semibold mb-2
                 ">
-                    Dani-ball
+                    Daniball
                 </h3>
                 <p 
                   className="
