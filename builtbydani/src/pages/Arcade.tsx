@@ -35,6 +35,11 @@ export const Arcade: React.FC = () => {
             description="A neon rainbow breakout clone"
             link="https://builtbydani.github.io/brickslay/"
           />
+          <GameCard 
+            title="SlayInvaders"
+            description="A pastel take on the classic"
+            link="https://builtbydani.github.io/slayinvadersv2/"
+          />
         </div>
       </div>
     </main>
