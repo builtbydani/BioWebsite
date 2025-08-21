@@ -54,7 +54,7 @@ export const Projects: React.FC = () => {
                 <a
                   href="https://github.com/builtbydani/visualio"
                   target="_blank"
-                  className="text-pink-500 font-medium hover:underline"
+                  className="text-blue-300 font-medium hover:underline"
                 >
                   View on GitHub →
                 </a>
@@ -70,19 +70,19 @@ export const Projects: React.FC = () => {
                   className="
                     text-xl font-semibold mb-2
                 ">
-                  BuiltByDani.dev
+                  DSA Showcase
                 </h3>
                   <p 
                     className="
                       text-sm text-gray-600 mb-4
                   ">
-                    This very site; a living portfolio, coded in React, 
-                    TypeScript, and Tailwind.
+                    A visualization of Data Structures and Algorithms.
+                    Built with React, JavaScript, and Tailwindcss
                   </p>
                   <a
-                    href="https://github.com/builtbydani/BioWebsite"
+                    href="https://github.com/builtbydani/dsa-showcase"
                     target="_blank"
-                    className="text-pink-500 font-medium hover:underline"
+                    className="text-blue-300 font-medium hover:underline"
                   >
                     View on GitHub →
                   </a>
@@ -109,7 +109,7 @@ export const Projects: React.FC = () => {
                 </p>
                 <a
                   href="https://builtbydani.github.io/dani-ball/"
-                  className="text-pink-500 font-medium hover:underline"
+                  className="text-blue-300 font-medium hover:underline"
                 >
                   Try it out! V1.0 out now!
                 </a>

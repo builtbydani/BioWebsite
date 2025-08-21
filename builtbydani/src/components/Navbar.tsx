@@ -33,7 +33,7 @@ export const Navbar: React.FC = () => {
           href="/" 
           className="
             text-xl font-bold 
-            text-purple-500
+            text-blue-300
           ">
             builtbydani.dev
         </a>
@@ -47,7 +47,7 @@ export const Navbar: React.FC = () => {
               href="#about" 
               className="
                 text-gray-700 
-                hover:text-purple-500 
+                hover:text-blue-300 
                 transition
             ">
               About
@@ -56,7 +56,7 @@ export const Navbar: React.FC = () => {
               href="#projects" 
               className="
                 text-gray-700 
-                hover:text-purple-500 
+                hover:text-blue-300 
                 transition
             ">
               Projects
@@ -64,11 +64,10 @@ export const Navbar: React.FC = () => {
           </>
         )}
             <Link 
-              to="/arcade" 
+              to="/arcade"
               className="
-                hover:underline 
-                text-pink-600
-            ">
+              text-gray-700
+              hover:text-blue-300">
               Arcade
             </Link>
           </div>

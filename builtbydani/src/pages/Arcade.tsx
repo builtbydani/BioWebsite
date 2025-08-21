@@ -6,7 +6,7 @@ export const Arcade: React.FC = () => {
     <main 
       className="
       min-h-screen p-8 
-      bg-gradient-to-br from-yellow-100 to-pink-200
+      bg-gradient-to-br from-yellow-100 to-purple-200
     ">
       <div 
         className="
@@ -15,7 +15,7 @@ export const Arcade: React.FC = () => {
         <h1 
           className="
             text-4xl font-bold 
-            text-center text-purple-500 mb-6
+            text-center text-blue-300 mb-6
         ">
           🎮 Dani's Arcade 🎮
         </h1>
@@ -37,7 +37,7 @@ export const Arcade: React.FC = () => {
           />
           <GameCard 
             title="SlayInvaders"
-            description="A pastel take on the classic"
+            description="A sparkly take on the classic"
             link="https://builtbydani.github.io/slayinvadersv2/"
           />
         </div>

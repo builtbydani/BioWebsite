@@ -12,15 +12,17 @@ export const Footer: React.FC = () => {
             Made with 
             <span 
               className="
-                text-purple-500
-            ">
+                text-blue-300
+            ">{" "}
               ♥
+              {" "}
             </span> 
             by 
             <span 
               className="
-                font-semibold text-purple-600
+                font-semibold text-purple-300
             ">
+            {" "}
               Dani
             </span> 
             — 

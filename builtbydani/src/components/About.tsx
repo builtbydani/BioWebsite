@@ -27,7 +27,7 @@ export const About: React.FC = () => {
 
             <p
               className="
-                text-lg text-gray-700 leading-relaxed
+                text-lg leading-relaxed
             ">
 
               Hello! I’m
@@ -40,37 +40,20 @@ export const About: React.FC = () => {
               </span>,
 
               a developer and creative based in the U.S. currently studying
-
-              <span
-                className="
-                  font-medium text-green-300
-              ">
-                {" "}Computer Science
-              </span> 
-
-              {" "}and learning everything from
+              Computer Science and learning everything from
 
               <span 
                 className="
                   font-medium text-blue-300
               "> 
-                {" "}JavaScript
+                {" "}TypeScript
               </span> 
 
               {" "}to
 
               <span 
                 className="
-                  font-medium text-orange-300
-              ">
-                {" "}Rust
-              </span>
-
-              {" "}to
-
-              <span 
-                className="
-                  font-medium text-purple-300
+                  font-medium text-green-300
               ">
               {" "}machine learning
               </span>.
@@ -85,56 +68,25 @@ export const About: React.FC = () => {
               I’m building cute, powerful tools for the web and beyond; from my personal site  
               <code 
                 className="
-                bg-purple-200 px-1 rounded mx-1
+                bg-purple-300 px-1 rounded mx-1
               ">
                 builtbydani.dev
               </code>
 
               , to game preservation projects, to visual/interactive full-stack apps. 
-              I love 
-
-              <span 
-                className="
-                  font-medium text-orange-300
-              ">
-                {" "}skate culture
-              </span>,
-
-              <span 
-                className="
-                  font-medium text-purple-300
-              ">
-                {" "}spooky
-              </span>/ 
-              <span 
-                className="
-                  font-medium text-pink-300
-              ">
-                pastel
-              </span> 
-
-              {" "}aesthetics, and
-
-              <span 
-                className="
-                  font-medium text-blue-300
-              ">
-                {" "}retro games
-              </span>.
-
+              I love skate culture, spooky/pastel aesthetics, and retro games.
             </p>
 
             <p 
               className="
                 text-lg text-gray-700 leading-relaxed
             ">
-              Currently learning: 
+              Currently focused on: 
               <span 
                 className="
                   italic
-              ">
-                {" "}Rust, SQL, React, full-stack dev, and cybersec
-              </span>.  
+              "> Full stack web development with Rust, PostgreSQL, and TypeScript
+              </span>.
             </p>
 
             <p 
@@ -142,7 +94,7 @@ export const About: React.FC = () => {
                 text-lg text-gray-700 
                 leading-relaxed
             ">
-              Always learning, always building. 
+              Always learning, always building 
               <span 
                 className="
                   text-black
