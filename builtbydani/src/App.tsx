@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Hero } from './components/Hero';
 import { Navbar } from './components/Navbar';
 import { About } from './components/About';
@@ -21,6 +22,7 @@ function App() {
         } />
         <Route path="/arcade" element={<Arcade />} />
       </Routes>
+      <SpeedInsights />
     </>
   );
 }
