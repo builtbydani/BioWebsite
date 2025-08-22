@@ -21,8 +21,8 @@ function App() {
           </>
         } />
         <Route path="/arcade" element={<Arcade />} />
+        <SpeedInsights />
       </Routes>
-      <SpeedInsights />
     </>
   );
 }
