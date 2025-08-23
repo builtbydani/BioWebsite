@@ -18,7 +18,7 @@ export const Arcade: React.FC = () => {
             text-4xl font-bold 
             text-center text-blue-300 mb-6
         ">
-          👽Dani's Arcade👽
+          Dani's Arcade
         </h1>
 
         <div
