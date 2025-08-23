@@ -47,15 +47,16 @@ export const Projects: React.FC = () => {
                 </h3>
                 <p 
                   className="
-                    text-sm text-gray-600 mb-4
+                    text-sm text-gray-700 mb-4
                 ">
-                  An audio visualizer built for the browser with React.
+                  An in-browser audio visualizer built as a React component.
+                  Upload any .mp3 file!
                 </p>
 
                 <a
                   href="https://github.com/builtbydani/visualio"
                   target="_blank"
-                  className="text-blue-300 font-medium hover:underline"
+                  className="text-blue-300 font-semibold hover:underline"
                 >
                   View on GitHub →
                 </a>
@@ -75,7 +76,7 @@ export const Projects: React.FC = () => {
                 </h3>
                   <p 
                     className="
-                      text-sm text-gray-600 mb-4
+                      text-sm text-gray-700 mb-4
                   ">
                     A visualization of Data Structures and Algorithms.
                     Built with React, JavaScript, and Tailwindcss
@@ -83,7 +84,7 @@ export const Projects: React.FC = () => {
                   <a
                     href="https://github.com/builtbydani/dsa-showcase"
                     target="_blank"
-                    className="text-blue-300 font-medium hover:underline"
+                    className="text-blue-300 font-semibold hover:underline"
                   >
                     View on GitHub →
                   </a>
@@ -103,14 +104,14 @@ export const Projects: React.FC = () => {
                 </h3>
                 <p 
                   className="
-                    text-sm text-gray-600 mb-4
+                    text-sm text-gray-700 mb-4
                 ">
                   A browser toy inspired by danball.jp 
                   Play with particles like sand, water, oil, and more!
                 </p>
                 <a
                   href="https://builtbydani.github.io/dani-ball/"
-                  className="text-blue-300 font-medium hover:underline"
+                  className="text-blue-300 font-semibold hover:underline"
                 >
                   Try it out! V1.0 out now!
                 </a>

@@ -5,7 +5,7 @@ export const Footer: React.FC = () => {
         <footer 
           className="
             bg-gray-500
-            text-center font-mono text-sm text-gray-700 
+            text-center font-mono text-sm text-gray-900 
             py-6 shadow-inner
         ">
           <p>

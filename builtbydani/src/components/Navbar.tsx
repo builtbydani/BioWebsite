@@ -47,7 +47,7 @@ export const Navbar: React.FC = () => {
             <a 
               href="#about" 
               className="
-                text-gray-700 
+                text-gray-900 
                 hover:text-blue-300 
                 transition
             ">
@@ -56,7 +56,7 @@ export const Navbar: React.FC = () => {
             <a 
               href="#projects" 
               className="
-                text-gray-700 
+                text-gray-900 
                 hover:text-blue-300 
                 transition
             ">
@@ -67,7 +67,7 @@ export const Navbar: React.FC = () => {
             <Link 
               to="/arcade"
               className="
-              text-gray-700
+              text-gray-900
               hover:text-blue-300">
               Arcade
             </Link>

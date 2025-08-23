@@ -8,7 +8,7 @@ export const Hero: React.FC = () => {
         <h1 className="text-4xl font-bold mb-4">
           Hello, I’m Dani!
         </h1>
-        <p className="text-lg text-gray-700 mb-6">
+        <p className="text-lg text-gray-900 mb-6">
           Welcome to my corner of the internet; where I'll be sharing 
           who I am, and what I'm up to. Check back regularly for updates!
         </p>
@@ -19,7 +19,7 @@ export const Hero: React.FC = () => {
           className="
             inline-block px-6 py-3 
             bg-gray-400 
-            text-gray-700 font-semibold rounded
+            text-gray-900 font-semibold rounded
             shadow hover:bg-blue-300 transition
         ">
           Github
@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
           className="
             inline-block px-6 py-3
             bg-gray-400
-            text-gray-700 font-semibold rounded
+            text-gray-900 font-semibold rounded
             shadow hover:bg-blue-300 transition
         ">
           LinkedIn
@@ -41,7 +41,7 @@ export const Hero: React.FC = () => {
           className="
             inline-block px-6 py-3
             bg-gray-400
-            text-gray-700 font-semibold rounded
+            text-gray-900 font-semibold rounded
             shadow hover:bg-blue-300 transition
         ">
           Resume
