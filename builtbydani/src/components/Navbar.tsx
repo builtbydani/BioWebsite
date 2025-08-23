@@ -27,7 +27,7 @@ export const Navbar: React.FC = () => {
           max-w-6xl mx-auto 
           px-6 py-4
           font-mono
-          flex justify-between 
+          sm:flex justify-between 
           items-center
       ">
         <a 
