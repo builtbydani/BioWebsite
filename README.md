@@ -34,7 +34,6 @@ Built with love, TypeScript, and Tailwind — and deployed with Vercel.
 ![Accessibility](https://img.shields.io/badge/Accessibility-90-yellowgreen)
 ![Best_Practices](https://img.shields.io/badge/Best%20Practices-100-brightgreen)
 ![SEO](https://img.shields.io/badge/SEO-100-brightgreen)
-![Screenshot for verification](./metrics.png)
 ---
 
 Thanks for visiting!
