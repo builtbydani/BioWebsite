@@ -5,8 +5,9 @@ export const Arcade: React.FC = () => {
   return (
     <main 
       className="
-      min-h-screen p-8 
-      bg-gradient-to-br from-yellow-100 to-purple-200
+      min-h-screen p-8
+      font-mono
+      bg-gradient-to-br from-gray-500 to-blue-300
     ">
       <div 
         className="
@@ -17,7 +18,7 @@ export const Arcade: React.FC = () => {
             text-4xl font-bold 
             text-center text-blue-300 mb-6
         ">
-          🎮 Dani's Arcade 🎮
+          👽Dani's Arcade👽
         </h1>
 
         <div
