@@ -35,7 +35,9 @@ export const Hero: React.FC = () => {
           LinkedIn
         </a>
         <a
-          href="./2025_Resume_Final.pdf"
+          href="/2025_Resume_Final.pdf"
+          target="_blank"
+          rel="noopener"
           className="
             inline-block px-6 py-3
             bg-gray-400
