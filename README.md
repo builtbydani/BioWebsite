@@ -27,8 +27,10 @@ Built with love, TypeScript, and Tailwind — and deployed with Vercel.
 
 ## 📸 Preview
 
-![builtbydani.dev screenshot](./screenshot.png) <!-- Optional: drop a screenshot in your repo if you want! -->
+![builtbydani.dev screenshot](./screenshot.png)
 
+## 🌐 Google PageSpeed Insights
+![PageSpeed Analytics screenshot](./metrics.png)
 ---
 
 Thanks for visiting!
