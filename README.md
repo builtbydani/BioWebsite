@@ -9,9 +9,8 @@ Built with love, TypeScript, and Tailwind — and deployed with Vercel.
 
 - Fully responsive design (looks cute on desktop *and* mobile 💖)
 - Scroll-reactive frosted glass navbar
-- Hero section with pastel gradient & CTA
-- About Me section styled like a magical journal card
-- Project showcase with soft card UI and GitHub links
+- Hero section with buttons linking to socials/professional resume
+- Project showcase with soft card UI and GitHub/live deploy links
 - Hosted live at [builtbydani.dev](https://builtbydani.dev)
 
 ## 🛠️ Built With
@@ -32,6 +31,6 @@ Built with love, TypeScript, and Tailwind — and deployed with Vercel.
 
 ---
 
-Thanks for visiting!  
-Questions?  
+Thanks for visiting!
+Questions?
 🖤 [me@builtbydani.dev](mailto:me@builtbydani.dev)
