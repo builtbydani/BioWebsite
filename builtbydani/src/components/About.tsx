@@ -6,15 +6,16 @@ export const About: React.FC = () => {
           id="about" 
           className="
             min-h-screen p-8 scroll-mt-20
-            bg-gradient-to-br from-purple-100 to-pink-100 
-            text-gray-900 
+            bg-gray-500 
+            text-gray-900
+            font-mono
             flex items-center justify-center 
         ">
 
           <div 
             className="
               max-w-3xl w-full 
-              bg-white/80 backdrop-blur-md 
+              bg-gray-400 backdrop-blur-md 
               rounded-xl p-8 space-y-6 shadow-lg
           ">
 
@@ -62,13 +63,13 @@ export const About: React.FC = () => {
 
             <p 
               className="
-                text-lg text-gray-700 leading-relaxed
+                text-lg text-gray-900 leading-relaxed
             ">
 
               I’m building cute, powerful tools for the web and beyond; from my personal site  
               <code 
                 className="
-                bg-purple-300 px-1 rounded mx-1
+                bg-blue-300 px-1 rounded mx-1
               ">
                 builtbydani.dev
               </code>
@@ -79,7 +80,7 @@ export const About: React.FC = () => {
 
             <p 
               className="
-                text-lg text-gray-700 leading-relaxed
+                text-lg text-gray-900 leading-relaxed
             ">
               Currently focused on: 
               <span 
@@ -91,7 +92,7 @@ export const About: React.FC = () => {
 
             <p 
               className="
-                text-lg text-gray-700 
+                text-lg text-gray-900 
                 leading-relaxed
             ">
               Always learning, always building 

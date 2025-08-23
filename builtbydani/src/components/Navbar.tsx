@@ -18,14 +18,15 @@ export const Navbar: React.FC = () => {
           fixed top-0 left-0 w-full z-50 
           transition-shadow 
           ${scrolled 
-            ? 'shadowmd bg-purple-100/80 backdrop-blur-md' 
+            ? 'shadowmd bg-purple-100/40 backdrop-blur-md' 
             : ''}
       `}
     >
       <div 
         className="
           max-w-6xl mx-auto 
-          px-6 py-4 
+          px-6 py-4
+          font-mono
           flex justify-between 
           items-center
       ">

@@ -6,13 +6,14 @@ export const Projects: React.FC = () => {
           id="projects" 
           className="
             min-h-screen p-8 scroll-mt-20 
-            bg-gradient-to-br from-pink-100 to-purple-100 
-            text-gray-900 
+            bg-gray-500
+            text-gray-900
+            font-mono
             flex items-center justify-center
         ">
           <div 
             className="
-              max-w-6xl w-full bg-white/80 backdrop-blur-md 
+              max-w-6xl w-full bg-gray-400 backdrop-blur-md 
               rounded-xl p-8 space-y-6 shadow-lg
           ">
             <h2 
@@ -34,7 +35,7 @@ export const Projects: React.FC = () => {
               {/* Project 1 */}
               <div 
                 className="
-                  bg-white p-6 
+                  bg-purple-100/80 p-6 
                   rounded-xl 
                   shadow hover:shadow-lg transition
               ">
@@ -63,7 +64,7 @@ export const Projects: React.FC = () => {
               {/* Project 2 */}
               <div 
                 className="
-                  bg-white p-6 rounded-xl 
+                  bg-purple-100/80 p-6 rounded-xl 
                   shadow hover:shadow-lg transition
               ">
                 <h3 
@@ -91,7 +92,7 @@ export const Projects: React.FC = () => {
               {/* Project 3 */}
               <div 
                 className="
-                  bg-white p-6 rounded-xl 
+                  bg-purple-100/80 p-6 rounded-xl 
                   shadow hover:shadow-lg transition
               ">
                 <h3 
