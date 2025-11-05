@@ -20,7 +20,7 @@ export const projects: Project[] = [
   },
   {
     title: "Daniball",
-    description: "A browser toy inspired by danball.jp Play with particles like sand, water, oil, and more!",
+    description: "A browser toy inspired by danball.jp. Play with particles like sand, water, oil, and more!",
     link: "https://builtbydani.github.io/dani-ball/",
     linkText: "Try it out! V1.0 out now!"
   }

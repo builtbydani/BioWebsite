@@ -41,7 +41,7 @@ export const Hero: React.FC = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Github
+          GitHub
         </motion.a>
         <motion.a
           href="https://www.linkedin.com/in/daniel-richards-dev/"
