@@ -1,4 +1,6 @@
-import React from 'react' 
+import React from 'react'
+import { ProjectCard } from './ProjectCard'
+import { projects } from '../data/projects'
 
 export const Projects: React.FC = () => {
   return (
@@ -32,90 +34,15 @@ export const Projects: React.FC = () => {
                 md:grid-cols-2 
                 lg:grid-cols-3 gap-6
             ">
-              {/* Project 1 */}
-              <div 
-                className="
-                  bg-purple-100/80 p-6 
-                  rounded-xl 
-                  shadow hover:shadow-lg transition
-              ">
-                <h3 
-                  className="
-                    text-xl font-semibold mb-2
-                ">
-                  Visualio
-                </h3>
-                <p 
-                  className="
-                    text-sm text-gray-700 mb-4
-                ">
-                  An in-browser audio visualizer built as a React component.
-                  Upload any .mp3 file!
-                </p>
-
-                <a
-                  href="https://github.com/builtbydani/visualio"
-                  target="_blank"
-                  className="text-blue-300 font-semibold hover:underline"
-                >
-                  View on GitHub →
-                </a>
-              </div>
-
-              {/* Project 2 */}
-              <div 
-                className="
-                  bg-purple-100/80 p-6 rounded-xl 
-                  shadow hover:shadow-lg transition
-              ">
-                <h3 
-                  className="
-                    text-xl font-semibold mb-2
-                ">
-                  DSA Showcase
-                </h3>
-                  <p 
-                    className="
-                      text-sm text-gray-700 mb-4
-                  ">
-                    A visualization of Data Structures and Algorithms.
-                    Built with React, JavaScript, and Tailwindcss
-                  </p>
-                  <a
-                    href="https://github.com/builtbydani/dsa-showcase"
-                    target="_blank"
-                    className="text-blue-300 font-semibold hover:underline"
-                  >
-                    View on GitHub →
-                  </a>
-                </div>
-
-              {/* Project 3 */}
-              <div 
-                className="
-                  bg-purple-100/80 p-6 rounded-xl 
-                  shadow hover:shadow-lg transition
-              ">
-                <h3 
-                  className="
-                    text-xl font-semibold mb-2
-                ">
-                    Daniball
-                </h3>
-                <p 
-                  className="
-                    text-sm text-gray-700 mb-4
-                ">
-                  A browser toy inspired by danball.jp 
-                  Play with particles like sand, water, oil, and more!
-                </p>
-                <a
-                  href="https://builtbydani.github.io/dani-ball/"
-                  className="text-blue-300 font-semibold hover:underline"
-                >
-                  Try it out! V1.0 out now!
-                </a>
-              </div>
+              {projects.map((project) => (
+                <ProjectCard
+                  key={project.title}
+                  title={project.title}
+                  description={project.description}
+                  link={project.link}
+                  linkText={project.linkText}
+                />
+              ))}
             </div>
           </div>
         </section>

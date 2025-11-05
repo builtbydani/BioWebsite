@@ -1,4 +1,5 @@
 import React from 'react'
+import { HighlightText } from './HighlightText'
 
 export const About: React.FC = () => {
   return(
@@ -33,31 +34,14 @@ export const About: React.FC = () => {
 
               Hello! I’m
 
-              <span 
-                className="
-                  font-semibold text-purple-300
-              ">
-                {" "}Dani
-              </span>,
+              <HighlightText color="purple" className="font-semibold"> Dani</HighlightText>,
 
               a developer and creative based in the U.S. currently studying
               Computer Science and learning everything from
 
-              <span 
-                className="
-                  font-medium text-blue-300
-              "> 
-                {" "}TypeScript
-              </span> 
+              <HighlightText color="blue" className="font-medium"> TypeScript</HighlightText> to
 
-              {" "}to
-
-              <span 
-                className="
-                  font-medium text-green-300
-              ">
-              {" "}machine learning
-              </span>.
+              <HighlightText color="green" className="font-medium"> machine learning</HighlightText>.
 
             </p>
 
@@ -95,13 +79,7 @@ export const About: React.FC = () => {
                 text-lg text-gray-900 
                 leading-relaxed
             ">
-              Always learning, always building 
-              <span 
-                className="
-                  text-black
-                ">
-                  {" "}🖤
-                </span>
+              Always learning, always building <HighlightText color="black"> 🖤</HighlightText>
             </p>
           </div>
         </main>
