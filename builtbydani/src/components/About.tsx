@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import { HighlightText } from './HighlightText'
 
 export const About: React.FC = () => {
@@ -13,12 +14,17 @@ export const About: React.FC = () => {
             flex items-center justify-center 
         ">
 
-          <div 
+          <motion.div 
             className="
               max-w-3xl w-full 
               bg-gray-400 backdrop-blur-md 
               rounded-xl p-8 space-y-6 shadow-lg
-          ">
+          "
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
 
             <h2 
               className="
@@ -81,7 +87,7 @@ export const About: React.FC = () => {
             ">
               Always learning, always building <HighlightText color="black"> 🖤</HighlightText>
             </p>
-          </div>
+          </motion.div>
         </main>
   )
 }
