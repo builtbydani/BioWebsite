@@ -16,8 +16,8 @@ export function ProjectCard({ title, description, link, linkText }: ProjectCardP
   return (
     <motion.div
       className="
-        bg-purple-100/80 p-6 
-        rounded-xl 
+        h-full bg-purple-100/80 p-5 sm:p-6
+        rounded-xl flex flex-col
         shadow hover:shadow-lg transition
       "
       variants={cardVariants}
@@ -34,7 +34,7 @@ export function ProjectCard({ title, description, link, linkText }: ProjectCardP
       </h3>
       <p 
         className="
-          text-sm text-gray-700 mb-4
+          text-sm text-gray-700 mb-4 leading-relaxed flex-1
         "
       >
         {description}

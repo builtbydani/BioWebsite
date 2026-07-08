@@ -1,13 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { HighlightText } from './HighlightText'
+import { aboutContent } from '../data/profile'
 
 export const About: React.FC = () => {
   return(
-        <main 
+        <section 
           id="about" 
           className="
-            min-h-screen p-8 scroll-mt-20
+            min-h-screen scroll-mt-20 px-6 py-16 sm:py-20
             bg-gray-500 
             text-gray-900
             font-mono
@@ -16,9 +16,9 @@ export const About: React.FC = () => {
 
           <motion.div 
             className="
-              max-w-3xl w-full 
+              max-w-4xl w-full 
               bg-gray-400 backdrop-blur-md 
-              rounded-xl p-8 space-y-6 shadow-lg
+              rounded-xl p-6 sm:p-8 space-y-8 shadow-lg
           "
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -28,66 +28,30 @@ export const About: React.FC = () => {
 
             <h2 
               className="
-                text-4xl font-bold text-blue-300 text-center
+                text-3xl sm:text-4xl font-bold text-blue-300 text-center
             ">
-              About Me
+              {aboutContent.heading}
             </h2>
 
-            <p
-              className="
-                text-lg leading-relaxed
-            ">
+            <dl className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {aboutContent.profileHighlights.map((item) => (
+                <div key={item.label} className="bg-purple-100/70 rounded-lg p-4">
+                  <dt className="text-sm uppercase tracking-wide text-gray-700">{item.label}</dt>
+                  <dd className="mt-1 text-base font-medium">{item.value}</dd>
+                </div>
+              ))}
+            </dl>
 
-              Hello! I’m
+            <div className="space-y-4">
+              {aboutContent.bio.map((paragraph) => (
+                <p key={paragraph} className="text-base sm:text-lg leading-relaxed">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
 
-              <HighlightText color="purple" className="font-semibold"> Dani</HighlightText>,
-
-              a developer and creative based in the U.S. currently studying
-              Computer Science and learning everything from
-
-              <HighlightText color="blue" className="font-medium"> TypeScript</HighlightText> to
-
-              <HighlightText color="green" className="font-medium"> machine learning</HighlightText>.
-
-            </p>
-
-            <p 
-              className="
-                text-lg text-gray-900 leading-relaxed
-            ">
-
-              I’m building cute, powerful tools for the web and beyond; from my personal site  
-              <code 
-                className="
-                bg-blue-300 px-1 rounded mx-1
-              ">
-                builtbydani.dev
-              </code>
-
-              , to game preservation projects, to visual/interactive full-stack apps. 
-              I love skate culture, spooky/pastel aesthetics, and retro games.
-            </p>
-
-            <p 
-              className="
-                text-lg text-gray-900 leading-relaxed
-            ">
-              Currently focused on: 
-              <span 
-                className="
-                  italic
-              "> Full stack web development with Rust, PostgreSQL, and TypeScript
-              </span>.
-            </p>
-
-            <p 
-              className="
-                text-lg text-gray-900 
-                leading-relaxed
-            ">
-              Always learning, always building <HighlightText color="black"> 🖤</HighlightText>
-            </p>
+            <p className="text-base sm:text-lg leading-relaxed italic">{aboutContent.footer}</p>
           </motion.div>
-        </main>
+        </section>
   )
 }

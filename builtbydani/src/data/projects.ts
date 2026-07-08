@@ -5,6 +5,11 @@ export type Project = {
   linkText: string;
 };
 
+export const projectsSectionContent = {
+  heading: 'Projects',
+  intro: 'A few things I have built recently.',
+};
+
 export const projects: Project[] = [
   {
     title: "Visualio",
