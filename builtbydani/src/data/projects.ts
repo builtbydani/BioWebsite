@@ -7,7 +7,7 @@ export type Project = {
 
 export const projectsSectionContent = {
   heading: 'Projects',
-  intro: 'A few things I have built recently. Update project copy in this file whenever you want to refresh this section.',
+  intro: 'A few things I have built recently.',
 };
 
 export const projects: Project[] = [

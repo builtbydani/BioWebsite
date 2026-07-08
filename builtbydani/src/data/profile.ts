@@ -4,7 +4,7 @@ export const profile = {
   currentRole: 'Intern at DigiKey',
   currentTeam: 'Mosaic team',
   degree: 'Bachelor’s degree in Computer Science',
-  focus: 'Full stack web development with Rust, PostgreSQL, and TypeScript',
+  focus: 'Backend services with C# and .NET 10',
 };
 
 export const heroContent = {
